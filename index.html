@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <script src="./index.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        
+        /* #h{
+            transition: transform 3s ease-in-out 1s;
+            
+            transform-origin: right;
+        }
+        #h:hover{
+            
+            transform: rotate(360deg);
+        } */
+    </style>
+</head>
+<body>
+    <!-- <div id="x" class="flex justify-center "> -->
+        <!-- <div class="mx-30"></div> -->
+    </div>
+    <!-- <div class="flex items-center justify-end border-[0.5rem] border-teal-400 w-[16rem] h-[16rem] rounded-full ">
+        <div class="w-9 bg-green-600 h-4"></div>
+        <div class="h-4 w-[16rem] bg-green-600 origin-center  rotate-90 absolute"></div>
+        <div class="h-4 w-[16rem] bg-green-600 rotate-[45deg] absolute"></div>
+        <div id="h" class="w-[8rem] bg-black h-4"></div>
+    </div> -->
+    <div id="demo"></div>
+    <div class="flex items-center w-[16rem] h-[16rem] rounded-full mx-[31rem] my-40 ">
+        <div class="flex justify-between w-[15rem]">
+            <div class="font-bold text-3xl m-2">9</div>
+            <div class="font-bold text-3xl m-2">3</div>
+        </div>
+        <div class="flex justify-between w-[15rem] absolute rotate-90">
+            <div class="font-bold text-3xl m-1 rotate-[-90deg]">12</div>
+            <div class="font-bold text-3xl m-2 rotate-[-90deg]">6</div>
+        </div>
+        <div class="flex justify-between w-[15rem] absolute rotate-[30deg]">
+            <div class="w-3 m-1.5 h-1.5 bg-black"></div>
+            <div class="w-3 m-1.5 h-1.5 bg-black"></div>
+        </div>
+        <div class="flex justify-between w-[15rem] absolute rotate-[60deg]">
+            <div class="w-3 m-1.5 h-1.5 bg-black"></div>
+            <div class="w-3 m-1.5 h-1.5 bg-black"></div>
+        </div>
+        <div class="flex justify-between w-[15rem] absolute rotate-[120deg]">
+            <div class="w-3 m-1.5 h-1.5 bg-black"></div>
+            <div class="w-3 m-1.5 h-1.5 bg-black"></div>
+        </div>
+        <div class="flex justify-between w-[15rem] absolute rotate-[150deg]">
+            <div class="w-3 m-1.5 h-1.5 bg-black"></div>
+            <div class="w-3 m-1.5 h-1.5 bg-black"></div>
+        </div>
+        
+        <div id="hStick" class="flex justify-end w-[7.5rem] absolute  h-2 ">
+            <div class="bg-black w-[4.5rem] "></div>
+        </div>
+        <div id="mStick" class="flex justify-end w-[7.5rem] absolute  h-2 ">
+            <div class="bg-black w-[5.5rem] "></div>
+        </div>
+        <div id="sStick" class="flex justify-end w-[7.5rem] absolute  h-1 ">
+            <div class="bg-red-600 w-[5.75rem] "></div>
+        </div>
+    </div>
+</body>
+</html>
